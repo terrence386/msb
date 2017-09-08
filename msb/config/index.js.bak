@@ -29,7 +29,7 @@ module.exports = {
     assetsPublicPath: '/',
     proxyTable: {
 		'*':{
-		    target:'http://test.qy.9gms.com',
+		    target:'http://localhost:8080',
 			secure:false
 		}
 	},
