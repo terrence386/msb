@@ -5,7 +5,7 @@ import VueResource from 'vue-resource'
 Vue.use(VueResource)
 
 //var userResource = 'http://test.qy.9gms.com';
-var userResource = 'http://sthapi.chenglian.com/'
+var userResource = 'http://sthapi.chenglian.com'
 Vue.http.options.emulateHTTP = true
 Vue.http.options.method = 'POST'
 Vue.http.options.emulateJSON = true
