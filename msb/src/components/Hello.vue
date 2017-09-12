@@ -53,7 +53,7 @@
         <img slot="icon" src="../assets/mission.png" height="24" width="24">
         <span slot="label" class="tabber-text">任务</span>
       </tabbar-item>
-      <tabbar-item selected link="/component/demo">
+      <tabbar-item selected link="/login/Login">
         <img slot="icon" src="../assets/find.png" height="24" width="25">
         <span slot="label" class="tabber-text">发现</span>
       </tabbar-item>

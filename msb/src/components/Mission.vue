@@ -3,7 +3,7 @@
     <div class="mission-banner">
       <img src="../assets/mission_banner.png" height="121" width="375" />
     </div>
-    <sticky scrollBox="" :check-sticky-support="false" :offset="0">
+    <sticky scrollBox="":check-sticky-support="false" :offset="0">
       <tab :line-width = "1" bar-active-color = "#909">
         <tab-item>全部任务</tab-item>
         <tab-item selected>任务类型</tab-item>
@@ -159,7 +159,6 @@
     </div>
 
     <!--底部导航-->
-    <!--底部导航-->
     <tabbar class="tabbar">
       <tabbar-item link="/">
         <img slot="icon" src="../assets/home.png" height="24" width="24">
@@ -169,7 +168,7 @@
         <img slot="icon" src="../assets/mission.png" height="24" width="24">
         <span slot="label" class="tabber-text">任务</span>
       </tabbar-item>
-      <tabbar-item selected link="/component/demo">
+      <tabbar-item selected link="/login/Login">
         <img slot="icon" src="../assets/find.png" height="24" width="25">
         <span slot="label" class="tabber-text">发现</span>
       </tabbar-item>
@@ -205,17 +204,17 @@ export default {
   name: 'hello',
   data () {
     return {
-
-      demo01_index: 0,
-      msg: 'Welcome to Your Vue.js App',
-      title: '多人业务'
+      title: 'enter',
+      msg: 'here is very good'
     }
   },
   created () {
     console.log(this)
   },
   methods: {
-
+    splice: function () {
+      console.log(1)
+    }
   }
 }
 </script>
@@ -279,5 +278,14 @@ export default {
 }
 .u-info,.mission-footer-right{
   color:#8C8C8C;
+}
+.tabbar{
+	background-color:#fff;
+}
+.weui-tabbar__label span{
+  color:#000;
+}
+.weui-tabbar__item{
+  text-decroation:none !important;
 }
 </style>
