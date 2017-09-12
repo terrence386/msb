@@ -1,23 +1,42 @@
 <template>
-  <div id="app">
+  <div id="app" :style="{height:this.getHeight}">
     <router-view></router-view>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'app'
+  name: 'app',
+  created () {
+    console.log(this)
+    // this.getHeight()
+  },
+  data () {
+    return {
+      height: 0
+    }
+  },
+  methods: {
+    getHeight () {
+      this.height = document.documentElement.clientHeight
+    }
+  },
+  computed: {
+    getHeight () {
+      return document.documentElement.clientHeight.toString() + 'px'
+    }
+  }
 }
 </script>
 
 <style>
 @font-face {
   font-family: 'iconfont';  /* project id 395499 */
-  src: url('//at.alicdn.com/t/font_395499_3bbkn8ap8mbcsor.eot');
-  src: url('//at.alicdn.com/t/font_395499_3bbkn8ap8mbcsor.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_395499_3bbkn8ap8mbcsor.woff') format('woff'),
-  url('//at.alicdn.com/t/font_395499_3bbkn8ap8mbcsor.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_395499_3bbkn8ap8mbcsor.svg#iconfont') format('svg');
+  src: url('//at.alicdn.com/t/font_395499_1en42ffridjnstt9.eot');
+  src: url('//at.alicdn.com/t/font_395499_1en42ffridjnstt9.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_395499_1en42ffridjnstt9.woff') format('woff'),
+  url('//at.alicdn.com/t/font_395499_1en42ffridjnstt9.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_395499_1en42ffridjnstt9.svg#iconfont') format('svg');
 }
 .iconfont{
     font-family:"iconfont" !important;

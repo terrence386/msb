@@ -10,8 +10,8 @@
         <tab-item>排序</tab-item>
       </tab>
     </sticky>
-    <div class="mission-box">
-      <div class="mission-item">
+    <div class="mission-box" >
+      <div class="mission-item" @click="goDetail()">
         <div class="mission-item-title">
           <div class="p-a-c">
             <div class="title-left">文案编辑</div>
@@ -214,6 +214,9 @@ export default {
   methods: {
     splice: function () {
       console.log(1)
+    },
+    goDetail: function () {
+      this.$router.push('/component/MissionDetail')
     }
   }
 }
