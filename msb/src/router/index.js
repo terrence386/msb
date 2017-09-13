@@ -5,6 +5,7 @@ import Mission from '@/components/Mission'
 import MissionDetail from '@/components/MissionDetail'
 import CompanyDetail from '@/company/CompanyDetail'
 import Login from '@/login/Login'
+import User from '@/user/User'
 
 Vue.use(Router)
 
@@ -34,6 +35,11 @@ export default new Router({
       path: '/company/CompanyDetail',
       name: 'CompanyDetail',
       component: CompanyDetail
+    },
+    {
+      path: 'user/User',
+      name: 'User',
+      component: User
     }
 
   ]
