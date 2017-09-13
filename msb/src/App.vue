@@ -1,5 +1,5 @@
 <template>
-  <div id="app" :style="{height:this.getHeight}">
+  <div id="app">
     <router-view></router-view>
   </div>
 </template>
@@ -28,8 +28,11 @@ export default {
   }
 }
 </script>
+<style lang="less">
+  @import '~vux/src/styles/reset.less';
 
-<style>
+</style>
+<style >
 @font-face {
   font-family: 'iconfont';  /* project id 395499 */
   src: url('//at.alicdn.com/t/font_395499_1en42ffridjnstt9.eot');

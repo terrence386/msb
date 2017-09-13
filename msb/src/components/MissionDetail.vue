@@ -59,17 +59,40 @@
         <p>4.这里需要加一个符号</p>
       </div>
     </div>
+    <!--公司信息-->
+     <router-link to="/company/CompanyDetail">
+      <div class="company-info" :link="{path: '/company/CompanyDetail'}">
+        <div class="left-media">
+          <img src="../assets/logo.png">
+        </div>
+        <div class="right-content">
+          <p>九个秘书科技有限公司</p>
+          <p>互联网/技术开发</p>
+        </div>
+      </div>
+    </router-link>
+    <!--底部按钮-->
+   
+    <div class="btn-box">
+      <flexbox :gutter="0">
+        <flexbox-item :span="1/3"><div class="m-chat">秘聊</div></flexbox-item>
+        <flexbox-item><div class="m-apply">应聘</div></flexbox-item>
+      </flexbox>
+    </div>
+    
   </div>
 </template>
 
 <script>
-import { XHeader, Group, Cell } from 'vux'
+import { XHeader, Group, Cell, Flexbox, FlexboxItem } from 'vux'
 
 export default {
   components: {
     XHeader,
     Group,
-    Cell
+    Cell,
+    Flexbox,
+    FlexboxItem
   },
   name: 'hello',
   data () {
@@ -94,6 +117,7 @@ export default {
 .mission-detail{
   background-color: #F4F0EF;
   height: 100%;
+  margin-bottom: 45px;
 }
 .title{
   display: flex;
@@ -137,5 +161,37 @@ export default {
   padding: 5px 0;
   font-size: 14px;
   color: #8E908F;
+}
+.company-info{
+  display: flex;
+  align-items: center;
+  padding:10px 15px;
+  background-color: #fff;
+  margin-top: 15px;
+}
+.left-media img{
+  border-radius: 50%;
+}
+.right-content{
+  margin-left: 10px;
+}
+.m-chat,.m-apply{
+  text-align: center;
+  height:45px;
+  line-height: 45px;
+}
+.btn-box{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid #909;
+}
+.m-chat{
+  background-color: #fff;
+  color:#909;
+}
+.m-apply{
+  background-color: #909;
+  color:#fff;
 }
 </style>

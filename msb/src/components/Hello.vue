@@ -83,7 +83,7 @@ const baseList = [{
   title: '送你一辆车'
 }, {
   url: 'javascript:',
-  img: '../../assets/home_nav.png',
+  img: require('../assets/home_nav.png'),
   title: '送你一次旅行'
 }]
 
