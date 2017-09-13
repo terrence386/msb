@@ -17,8 +17,7 @@ export default {
     }
   },
   methods: {
-    getHeight () {
-      this.height = document.documentElement.clientHeight
+    splice () {
     }
   },
   computed: {
