@@ -2,7 +2,7 @@
   <div class="login" v-bind:style="{ height: height+'px' }">
   	<blur :blur-amount=10 :url="url" style='width:100%;height:100%;'>
         <div class="logo">
-            <img src="../assets/logo.png" height="63" width="62" alt="">
+            <img src="../../assets/logo.png" height="63" width="62" alt="">
         </div>
         <div class="login-form">
             <div class="form-item">
@@ -29,7 +29,7 @@ export default {
   name: 'login',
   data () {
     return {
-      url: require('../assets/login_bg.png'),
+      url: require('../../assets/login_bg.png'),
       msg: 'Welcome to Your Vue.js App',
       title: '多人业务',
       height: 0

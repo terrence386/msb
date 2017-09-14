@@ -2,7 +2,7 @@
   <div class="company-detail">
     <x-header>公司详情</x-header>
     <div class="company-banner-box">
-      <img src="../assets/e_banner.png" height="247" width="373" />
+      <img src="../../assets/e_banner.png" height="247" width="373" />
       <div class="company-title-box">
         <h3>河南鸣蝉科技有限公司</h3>
         <p>鸣蝉科技是一家年轻的企业，企业成员平均年龄23岁，主要从事网站开发、app、微信、及微信小程序的开发</p>
@@ -35,13 +35,13 @@
           <div slot="content">
             <grid>
               <grid-item link="/component/cell" style="padding:0">
-                <img src="../assets/mb.png">
+                <img src="../../assets/mb.png">
               </grid-item>
               <grid-item :link="{ path: '/component/cell'}" style="padding:0">
-                <img src="../assets/mb.png">
+                <img src="../../assets/mb.png">
               </grid-item>
               <grid-item link="/component/cell" style="padding:0">
-                <img src="../assets/mb.png">
+                <img src="../../assets/mb.png">
               </grid-item>
             </grid>
           </div>
@@ -50,13 +50,13 @@
           <div slot="content">
             <grid>
               <grid-item link="/component/cell" style="padding:0">
-                <img src="../assets/mb.png">
+                <img src="../../assets/mb.png">
               </grid-item>
               <grid-item :link="{ path: '/component/cell'}" style="padding:0">
-                <img src="../assets/mb.png">
+                <img src="../../assets/mb.png">
               </grid-item>
               <grid-item link="/component/cell" style="padding:0">
-                <img src="../assets/mb.png">
+                <img src="../../assets/mb.png">
               </grid-item>
             </grid>
           </div>
@@ -68,7 +68,7 @@
       <group :title="mDtitle">
         <div class="spread-item">
           <div class="spread-img">
-            <img src="../assets/sp.png" height="94" width="93">
+            <img src="../../assets/sp.png" height="94" width="93">
           </div>
           <div class="spread-content">
             <div>
@@ -83,7 +83,7 @@
 
         <div class="spread-item">
           <div class="spread-img">
-            <img src="../assets/sp.png" height="94" width="93">
+            <img src="../../assets/sp.png" height="94" width="93">
           </div>
           <div class="spread-content">
             <div>

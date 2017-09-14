@@ -3,7 +3,7 @@
   	<blur :blur-amount=10 :url="url" style='width:100%;height:18rem;position:relative;'>
       <div class="user-info">
         <div class="user-icon">
-          <img src="../assets/timg.jpg" style="width:6.5rem;height:6.5rem;border-radius:50%;border:3px solid #e6e6e6;" />
+          <img src="../../assets/timg.jpg" style="width:6.5rem;height:6.5rem;border-radius:50%;border:3px solid #e6e6e6;" />
         </div>
         <div class="user-content">
           <p><span class="user-name">谢广坤</span><span class="recdn">已认证</span></p>
@@ -14,15 +14,19 @@
       <div class="float-card-box">
         <div class="float-card">
           <div>
-            <img src="../assets/uhm.png">
+          <router-link to="/user/HomePage">
+            <img src="../../assets/uhm.png">
             <p>我的主页</p>
+          </router-link>
           </div>
           <div>
-            <img src="../assets/s_o.png">
-            <p>我的主页</p>
+          <router-link to="/serve/pservice">
+            <img src="../../assets/s_o.png">
+            <p>服务订单</p>
+          </router-link>
           </div>
           <div>
-            <img src="../assets/p_l.png">
+            <img src="../../assets/p_l.png">
             <p>应聘管理</p>
           </div>
         </div>
@@ -30,65 +34,65 @@
     <div class="manage-box">
       <grid class="user-mangage">
         <grid-item >
-            <img slot="icon" src="../assets/pig.png">
+            <img slot="icon" src="../../assets/pig.png">
             <span slot="label">我的财务</span>
         </grid-item>
         <grid-item >
-            <img slot="icon" src="../assets/pm.png">
+            <img slot="icon" src="../../assets/pm.png">
             <span slot="label">项目管理</span>
         </grid-item>
         <grid-item >
-            <img slot="icon" src="../assets/zb.png">
+            <img slot="icon" src="../../assets/zb.png">
             <span slot="label">直播管理</span>
         </grid-item>
       </grid>
       <grid class="user-mangage">
         <grid-item >
-            <img slot="icon" src="../assets/sc.png">
+            <img slot="icon" src="../../assets/sc.png">
             <span slot="label">我的收藏</span>
         </grid-item>
         <grid-item >
-            <img slot="icon" src="../assets/lx.png">
+            <img slot="icon" src="../../assets/lx.png">
             <span slot="label">联系管家</span>
         </grid-item>
         <grid-item >
-            <img slot="icon" src="../assets/tj.png">
+            <img slot="icon" src="../../assets/tj.png">
             <span slot="label">推荐企业</span>
         </grid-item>
       </grid>
       <grid class="user-mangage">
         <grid-item >
-            <img slot="icon" src="../assets/yq.png">
+            <img slot="icon" src="../../assets/yq.png">
             <span slot="label">邀请好友</span>
         </grid-item>
         <grid-item >
-            <img slot="icon" src="../assets/sz.png">
+            <img slot="icon" src="../../assets/sz.png">
             <span slot="label">更多设置</span>
         </grid-item>
-        
+
       </grid>
     </div>
-    
+
     <!--底部导航-->
     <tabbar class="tabbar" style="position:fixed">
-      <tabbar-item link="/component/hello">
-        <img slot="icon" src="../assets/home.png" height="24" width="24">
+      <tabbar-item link="/">
+        <img slot="icon" src="../../assets/home.png" height="24" width="24">
         <span slot="label" class="tabber-text">首页</span>
       </tabbar-item>
       <tabbar-item show-dot link="/component/Mission">
-        <img slot="icon" src="../assets/mission.png" height="24" width="24">
+        <img slot="icon" src="../../assets/mission.png" height="24" width="24">
         <span slot="label" class="tabber-text">任务</span>
       </tabbar-item>
       <tabbar-item  link="/login/Login">
-        <img slot="icon" src="../assets/find.png" height="24" width="25">
+        <img slot="icon" src="../../assets/find.png" height="24" width="25">
         <span slot="label" class="tabber-text">发现</span>
       </tabbar-item>
       <tabbar-item>
-        <img slot="icon" src="../assets/message.png" height="24" width="26">
+        <img slot="icon" src="../../assets/message.png" height="24" width="26">
         <span slot="label" class="tabber-text">消息</span>
       </tabbar-item>
       <tabbar-item selected>
-        <img slot="icon" src="../assets/user.png" height="23" width="24">
+        <img slot="icon" src="../../assets/user.png" height="23" width="24">
         <span slot="label" class="tabber-text">我的</span>
       </tabbar-item>
     </tabbar>
@@ -109,7 +113,7 @@ export default {
   name: 'login',
   data () {
     return {
-      url: require('../assets/bg.jpg')
+      url: require('../../assets/bg.jpg')
     }
   },
   created () {
@@ -168,7 +172,7 @@ export default {
 .float-card-box{
   margin:0 auto;
   padding:1rem;
-  z-index: 9999; 
+  z-index: 9999;
   background-color: #fff;
   text-align: center;
 }

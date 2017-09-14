@@ -3,13 +3,16 @@ import Router from 'vue-router'
 import Hello from '@/components/Hello'
 import Mission from '@/components/Mission'
 import MissionDetail from '@/components/MissionDetail'
-import CompanyDetail from '@/company/CompanyDetail'
-import Login from '@/login/Login'
-import User from '@/user/user'
+import CompanyDetail from '@/views/company/CompanyDetail'
+import Login from '@/views/login/Login'
+import User from '@/views/user/user'
+import HomePage from '@/views/user/homePage'
+import Pservice from '@/views/serviceOrder/pservice'
 
 Vue.use(Router)
 
 export default new Router({
+  mode: 'history',
   routes: [
     {
       path: '/',
@@ -40,7 +43,16 @@ export default new Router({
       path: '/user/User',
       name: 'User',
       component: User
+    },
+    {
+      path: '/user/HomePage',
+      name: 'HomePage',
+      component: HomePage
+    },
+    {
+      path: '/serve/pservice',
+      name: Pservice,
+      component: Pservice
     }
-
   ]
 })

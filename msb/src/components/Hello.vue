@@ -61,7 +61,7 @@
         <img slot="icon" src="../assets/message.png" height="24" width="26">
         <span slot="label" class="tabber-text">消息</span>
       </tabbar-item>
-      <tabbar-item>
+      <tabbar-item link="/user/User">
         <img slot="icon" src="../assets/user.png" height="23" width="24">
         <span slot="label" class="tabber-text">我的</span>
       </tabbar-item>
