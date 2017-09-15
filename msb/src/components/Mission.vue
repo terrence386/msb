@@ -11,149 +11,32 @@
       </tab>
     </sticky>
     <div class="mission-box" >
-      <div class="mission-item" @click="goDetail()">
+      <div class="mission-item" v-for="value in list ">
         <div class="mission-item-title">
           <div class="p-a-c">
-            <div class="title-left">文案编辑</div>
-            <div class="title-right">￥500</div>
+            <div class="title-left">{{value.duty}}</div>
+            <div class="title-right">￥{{value.budget}}</div>
           </div>
           <div class="a-a-t">
             <span class="iconfont">&#xe676;</span>
-            <span>杭州</span>
+            <span>{{value.city}}</span>
             <span class="iconfont">&#xe665;</span>
-            <span>1-3年</span>
+            <span>{{value.experience}}</span>
             <span class="iconfont">&#xe688;</span>
-            <span>2017-09-09</span>
+            <span>{{value.scheduleTime}}</span>
           </div>
         </div>
         <div class="mission-item-content">
-          君不见，黄河之水天上来，奔流到海不复回。
-          君不见，高堂明镜悲白发，朝如青丝暮成雪。
+          {{value.simpleInfo}}
         </div>
         <div class="mission-item-footer">
           <div class="mission-footer-left">
           <div>
-            <img src="../assets/u_icon.png" height="25" width="25">
+            <img :src="value.companyLogoImage" height="25" width="25">
           </div>
-            <div><span class="u-info">汤小明|鸣蝉科技</span></div>
+            <div><span class="u-info">{{value.nickname}}|{{value.companyName}}</span></div>
           </div>
-          <div class="mission-footer-right">已报名：200</div>
-        </div>
-      </div>
-      <div class="mission-item">
-        <div class="mission-item-title">
-          <div class="p-a-c">
-            <div class="title-left">文案编辑</div>
-            <div class="title-right">￥500</div>
-          </div>
-          <div class="a-a-t">
-            <span class="iconfont">&#xe676;</span>
-            <span>杭州</span>
-            <span class="iconfont">&#xe665;</span>
-            <span>1-3年</span>
-            <span class="iconfont">&#xe688;</span>
-            <span>2017-09-09</span>
-          </div>
-        </div>
-        <div class="mission-item-content">
-          君不见，黄河之水天上来，奔流到海不复回。
-          君不见，高堂明镜悲白发，朝如青丝暮成雪。
-        </div>
-        <div class="mission-item-footer">
-          <div class="mission-footer-left">
-          <div>
-            <img src="../assets/u_icon.png" height="25" width="25">
-          </div>
-            <div><span class="u-info">汤小明|鸣蝉科技</span></div>
-          </div>
-          <div class="mission-footer-right">已报名：200</div>
-        </div>
-      </div>
-      <div class="mission-item">
-        <div class="mission-item-title">
-          <div class="p-a-c">
-            <div class="title-left">文案编辑</div>
-            <div class="title-right">￥500</div>
-          </div>
-          <div class="a-a-t">
-            <span class="iconfont">&#xe676;</span>
-            <span>杭州</span>
-            <span class="iconfont">&#xe665;</span>
-            <span>1-3年</span>
-            <span class="iconfont">&#xe688;</span>
-            <span>2017-09-09</span>
-          </div>
-        </div>
-        <div class="mission-item-content">
-          君不见，黄河之水天上来，奔流到海不复回。
-          君不见，高堂明镜悲白发，朝如青丝暮成雪。
-        </div>
-        <div class="mission-item-footer">
-          <div class="mission-footer-left">
-          <div>
-            <img src="../assets/u_icon.png" height="25" width="25">
-          </div>
-            <div><span class="u-info">汤小明|鸣蝉科技</span></div>
-          </div>
-          <div class="mission-footer-right">已报名：200</div>
-        </div>
-      </div>
-      <div class="mission-item">
-        <div class="mission-item-title">
-          <div class="p-a-c">
-            <div class="title-left">文案编辑</div>
-            <div class="title-right">￥500</div>
-          </div>
-          <div class="a-a-t">
-            <span class="iconfont">&#xe676;</span>
-            <span>杭州</span>
-            <span class="iconfont">&#xe665;</span>
-            <span>1-3年</span>
-            <span class="iconfont">&#xe688;</span>
-            <span>2017-09-09</span>
-          </div>
-        </div>
-        <div class="mission-item-content">
-          君不见，黄河之水天上来，奔流到海不复回。
-          君不见，高堂明镜悲白发，朝如青丝暮成雪。
-        </div>
-        <div class="mission-item-footer">
-          <div class="mission-footer-left">
-          <div>
-            <img src="../assets/u_icon.png" height="25" width="25">
-          </div>
-            <div><span class="u-info">汤小明|鸣蝉科技</span></div>
-          </div>
-          <div class="mission-footer-right">已报名：200</div>
-        </div>
-      </div>
-      <div class="mission-item">
-        <div class="mission-item-title">
-          <div class="p-a-c">
-            <div class="title-left">文案编辑</div>
-            <div class="title-right">￥500</div>
-          </div>
-          <div class="a-a-t">
-            <span class="iconfont">&#xe676;</span>
-            <span>杭州</span>
-            <span class="iconfont">&#xe665;</span>
-            <span>1-3年</span>
-            <span class="iconfont">&#xe688;</span>
-            <span>2017-09-09</span>
-          </div>
-        </div>
-        <div class="mission-item-content">
-          君不见，黄河之水天上来，奔流到海不复回。
-          君不见，高堂明镜悲白发，朝如青丝暮成雪。
-        </div>
-        <div class="mission-item-footer">
-          <div class="mission-footer-left">
-          <div>
-            <img src="../assets/u_icon.png" height="25" width="25">
-          </div>
-            <div><span class="u-info">汤小明|鸣蝉科技</span></div>
-          </div>
-          <div class="mission-footer-right">已报名：200</div>
+          <div class="mission-footer-right">{{value.statusNote}}：{{value.responseCount}}</div>
         </div>
       </div>
     </div>
@@ -186,7 +69,7 @@
 
 <script>
 import { Tabbar, TabbarItem, Group, Cell, Swiper, SwiperItem, Grid, GridItem, Tab, TabItem, Sticky } from 'vux'
-
+import http from '../../http/http'
 export default {
   components: {
     Group,
@@ -205,11 +88,18 @@ export default {
   data () {
     return {
       title: 'enter',
-      msg: 'here is very good'
+      msg: 'here is very good',
+      list: []
     }
   },
   created () {
-    console.log(this)
+    http.get('../static/mission.json').then((response) => {
+      console.log(response)
+      this.list = response.data.list
+    }, (response) => {
+     // console.log(response)
+      console.log('出现错误')
+    })
   },
   methods: {
     splice: function () {
@@ -250,7 +140,7 @@ export default {
   background-color: #fff;
   border-radius: 5px;
   padding:10px;
-  margin-bottom:20px;
+  margin-bottom:1rem;
 }
 .mission-item-title,.mission-item-content{
   margin:10px 0;
@@ -290,5 +180,9 @@ export default {
 }
 .weui-tabbar__item{
   text-decroation:none !important;
+}
+.mission-footer-left img{
+  border-radius: 50%;
+  margin-right: .5rem;
 }
 </style>

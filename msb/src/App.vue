@@ -92,4 +92,10 @@ iconfont{
   a{
     text-decoration: none;
   }
+  .purse{
+    color: #909;
+  }
+  .bbl{
+    border-bottom: 1px solid #e6e6e6;
+  }
 </style>

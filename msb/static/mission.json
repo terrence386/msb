@@ -1,0 +1,568 @@
+{
+    "status": 200,
+    "message": "成功！",
+    "count": 10,
+    "pageNo": 1,
+    "pageSize": 10,
+    "total": 14,
+    "list": [
+        {
+            "demandRequestId": 641,
+            "userId": 55,
+            "nickname": "麦子君",
+            "position": "测试",
+            "duty": "企业简介",
+            "simpleInfo": "测试一下",
+            "scheduleTime": "2017/09/05",
+            "budget": 200,
+            "type": 20,
+            "typeNote": "任务需求",
+            "education": "研究生",
+            "experience": "3-5年",
+            "responseCount": 2,
+            "city": "不限",
+            "companyName": "十秘科技",
+            "companyLogoImage": "http://qn.9gms.com/15A42FD2-1BC5-4F28-8FFC-F17794009C50.png_sourceImage",
+            "status": 2,
+            "statusNote": "已终止",
+            "createTime": "2017/09/05 10:48"
+        },
+        {
+            "demandRequestId": 639,
+            "userId": 148,
+            "nickname": "萌大逗比",
+            "position": "测试一下",
+            "duty": "商业计划书",
+            "simpleInfo": "过来测试",
+            "scheduleTime": "2017/09/06",
+            "budget": 200,
+            "type": 20,
+            "typeNote": "任务需求",
+            "education": "本科",
+            "experience": "3-5年",
+            "responseCount": 4,
+            "city": "不限",
+            "companyName": "十秘科技",
+            "companyLogoImage": "http://qn.9gms.com/15A42FD2-1BC5-4F28-8FFC-F17794009C50.png_sourceImage",
+            "status": 2,
+            "statusNote": "已终止",
+            "createTime": "2017/09/04 14:26"
+        },
+        {
+            "demandRequestId": 634,
+            "userId": 148,
+            "nickname": "萌大逗比",
+            "position": "测试洗衣啊",
+            "duty": "管理类其他",
+            "simpleInfo": "尺洗衣啊 爱神的箭法拉盛地方",
+            "scheduleTime": "2017/09/02",
+            "budget": 200,
+            "type": 20,
+            "typeNote": "任务需求",
+            "education": "本科",
+            "experience": "3年以下",
+            "responseCount": 2,
+            "city": "不限",
+            "companyName": "十秘科技",
+            "companyLogoImage": "http://qn.9gms.com/15A42FD2-1BC5-4F28-8FFC-F17794009C50.png_sourceImage",
+            "status": 2,
+            "statusNote": "已终止",
+            "createTime": "2017/08/31 15:27"
+        },
+        {
+            "demandRequestId": 630,
+            "userId": 148,
+            "nickname": "萌大逗比",
+            "position": "考虑考虑",
+            "duty": "媒体渠道投放",
+            "simpleInfo": "看见了",
+            "scheduleTime": "2017/08/31",
+            "budget": 555,
+            "type": 20,
+            "typeNote": "任务需求",
+            "education": "大专",
+            "experience": "3年以下",
+            "responseCount": 3,
+            "city": "不限",
+            "companyName": "十秘科技",
+            "companyLogoImage": "http://qn.9gms.com/15A42FD2-1BC5-4F28-8FFC-F17794009C50.png_sourceImage",
+            "status": 2,
+            "statusNote": "已终止",
+            "createTime": "2017/08/30 17:55"
+        },
+        {
+            "demandRequestId": 628,
+            "userId": 55,
+            "nickname": "麦子君",
+            "position": "设计个网页",
+            "duty": "官网设计",
+            "simpleInfo": "设计网站",
+            "scheduleTime": "2017/09/30",
+            "budget": 2300,
+            "type": 20,
+            "typeNote": "任务需求",
+            "education": "大专",
+            "experience": "3年以下",
+            "responseCount": 3,
+            "city": "不限",
+            "companyName": "十秘科技",
+            "companyLogoImage": "http://qn.9gms.com/15A42FD2-1BC5-4F28-8FFC-F17794009C50.png_sourceImage",
+            "status": 2,
+            "statusNote": "招募中",
+            "createTime": "2017/08/30 16:52"
+        },
+        {
+            "demandRequestId": 621,
+            "userId": 148,
+            "nickname": "萌大逗比",
+            "position": "ceshafkhakf ",
+            "duty": "百度百科撰写",
+            "simpleInfo": "测试一下",
+            "scheduleTime": "2017/08/29",
+            "budget": 12456,
+            "type": 20,
+            "typeNote": "任务需求",
+            "education": "本科",
+            "experience": "3年以下",
+            "responseCount": 2,
+            "city": "不限",
+            "companyName": "十秘科技",
+            "companyLogoImage": "http://qn.9gms.com/15A42FD2-1BC5-4F28-8FFC-F17794009C50.png_sourceImage",
+            "status": 2,
+            "statusNote": "已终止",
+            "createTime": "2017/08/28 15:26"
+        },
+        {
+            "demandRequestId": 591,
+            "userId": 22,
+            "nickname": "Test11",
+            "position": "测试12",
+            "duty": "市场销售",
+            "simpleInfo": "你用的手机品牌是什么？",
+            "scheduleTime": "2018/09/30",
+            "budget": 200,
+            "type": 20,
+            "typeNote": "任务需求",
+            "education": "清华大学",
+            "experience": "1-3年",
+            "responseCount": 5,
+            "city": "不限",
+            "companyName": "十秘科技",
+            "companyLogoImage": "http://qn.9gms.com/15A42FD2-1BC5-4F28-8FFC-F17794009C50.png_sourceImage",
+            "status": 2,
+            "statusNote": "招募中",
+            "createTime": "2017/08/09 16:33"
+        },
+        {
+            "demandRequestId": 590,
+            "userId": 22,
+            "nickname": "Test11",
+            "position": "测试11",
+            "duty": "市场销售",
+            "simpleInfo": "你用的手机品牌是什么？",
+            "scheduleTime": "2018/09/30",
+            "budget": 200,
+            "type": 20,
+            "typeNote": "任务需求",
+            "education": "清华大学",
+            "experience": "1-3年",
+            "responseCount": 4,
+            "city": "不限",
+            "companyName": "十秘科技",
+            "companyLogoImage": "http://qn.9gms.com/15A42FD2-1BC5-4F28-8FFC-F17794009C50.png_sourceImage",
+            "status": 2,
+            "statusNote": "招募中",
+            "createTime": "2017/08/09 16:33"
+        },
+        {
+            "demandRequestId": 589,
+            "userId": 22,
+            "nickname": "Test11",
+            "position": "测试10",
+            "duty": "市场销售",
+            "simpleInfo": "你用的手机品牌是什么？",
+            "scheduleTime": "2018/09/30",
+            "budget": 200,
+            "type": 20,
+            "typeNote": "任务需求",
+            "education": "清华大学",
+            "experience": "1-3年",
+            "responseCount": 1,
+            "city": "不限",
+            "companyName": "十秘科技",
+            "companyLogoImage": "http://qn.9gms.com/15A42FD2-1BC5-4F28-8FFC-F17794009C50.png_sourceImage",
+            "status": 2,
+            "statusNote": "招募中",
+            "createTime": "2017/08/09 16:33"
+        },
+        {
+            "demandRequestId": 588,
+            "userId": 22,
+            "nickname": "Test11",
+            "position": "测试9",
+            "duty": "市场销售",
+            "simpleInfo": "你用的手机品牌是什么？",
+            "scheduleTime": "2018/09/30",
+            "budget": 200,
+            "type": 20,
+            "typeNote": "任务需求",
+            "education": "清华大学",
+            "experience": "1-3年",
+            "responseCount": 1,
+            "city": "不限",
+            "companyName": "十秘科技",
+            "companyLogoImage": "http://qn.9gms.com/15A42FD2-1BC5-4F28-8FFC-F17794009C50.png_sourceImage",
+            "status": 2,
+            "statusNote": "招募中",
+            "createTime": "2017/08/09 16:33"
+        }
+    ],
+    "otherData": {
+        "advertisements": [
+            {
+                "id": "0",
+                "imgUrl": "http://qn.9gms.com/task.png",
+                "title": "标题",
+                "link": ""
+            }
+        ],
+        "categoryAndTag": [
+            {
+                "name": "全部",
+                "code": -10000,
+                "localService": 0,
+                "tagList": [
+                    {
+                        "name": "全部",
+                        "code": -10000,
+                        "category": -10000,
+                        "displayName": "全部",
+                        "image": ""
+                    }
+                ]
+            },
+            {
+                "name": "文案",
+                "code": 10100,
+                "localService": false,
+                "tagList": [
+                    {
+                        "name": "全部",
+                        "code": -10000,
+                        "category": -10000,
+                        "displayName": "全部",
+                        "image": ""
+                    },
+                    {
+                        "name": "企业简介",
+                        "code": 10101,
+                        "category": 10100,
+                        "displayName": "企业简介",
+                        "image": ""
+                    },
+                    {
+                        "name": "微信软文",
+                        "code": 10102,
+                        "category": 10100,
+                        "displayName": "微信软文",
+                        "image": ""
+                    },
+                    {
+                        "name": "商业计划书",
+                        "code": 10103,
+                        "category": 10100,
+                        "displayName": "商业计划书",
+                        "image": ""
+                    },
+                    {
+                        "name": "百度百科撰写",
+                        "code": 10104,
+                        "category": 10100,
+                        "displayName": "百度百科撰写",
+                        "image": ""
+                    },
+                    {
+                        "name": "活动策划",
+                        "code": 10105,
+                        "category": 10100,
+                        "displayName": "活动策划",
+                        "image": ""
+                    },
+                    {
+                        "name": "广告策划",
+                        "code": 10106,
+                        "category": 10100,
+                        "displayName": "广告策划",
+                        "image": ""
+                    },
+                    {
+                        "name": "招商策划",
+                        "code": 10107,
+                        "category": 10100,
+                        "displayName": "招商策划",
+                        "image": ""
+                    },
+                    {
+                        "name": "营销策划",
+                        "code": 10108,
+                        "category": 10100,
+                        "displayName": "营销策划",
+                        "image": ""
+                    },
+                    {
+                        "name": "销售培训手册",
+                        "code": 10109,
+                        "category": 10100,
+                        "displayName": "销售培训手册",
+                        "image": ""
+                    },
+                    {
+                        "name": "品牌故事",
+                        "code": 10110,
+                        "category": 10100,
+                        "displayName": "品牌故事",
+                        "image": ""
+                    },
+                    {
+                        "name": "法律协议",
+                        "code": 10111,
+                        "category": 10100,
+                        "displayName": "法律协议",
+                        "image": ""
+                    },
+                    {
+                        "name": "文案类其他",
+                        "code": 10199,
+                        "category": 10100,
+                        "displayName": "文案类其他",
+                        "image": ""
+                    },
+                    {
+                        "name": "影视文集",
+                        "code": 10112,
+                        "category": 10100,
+                        "displayName": "影视文集",
+                        "image": ""
+                    },
+                    {
+                        "name": "PPT",
+                        "code": 10113,
+                        "category": 10100,
+                        "displayName": "PPT",
+                        "image": ""
+                    },
+                    {
+                        "name": "新闻稿",
+                        "code": 10114,
+                        "category": 10100,
+                        "displayName": "新闻稿",
+                        "image": ""
+                    }
+                ]
+            },
+            {
+                "name": "设计",
+                "code": 10200,
+                "localService": false,
+                "tagList": [
+                    {
+                        "name": "全部",
+                        "code": -10000,
+                        "category": -10000,
+                        "displayName": "全部",
+                        "image": ""
+                    },
+                    {
+                        "name": "logo设计",
+                        "code": 10201,
+                        "category": 10200,
+                        "displayName": "logo设计",
+                        "image": ""
+                    },
+                    {
+                        "name": "UI设计",
+                        "code": 10202,
+                        "category": 10200,
+                        "displayName": "UI设计",
+                        "image": ""
+                    },
+                    {
+                        "name": "动画设计",
+                        "code": 10203,
+                        "category": 10200,
+                        "displayName": "动画设计",
+                        "image": ""
+                    },
+                    {
+                        "name": "服装设计",
+                        "code": 10204,
+                        "category": 10200,
+                        "displayName": "服装设计",
+                        "image": ""
+                    },
+                    {
+                        "name": "室内设计",
+                        "code": 10205,
+                        "category": 10200,
+                        "displayName": "室内设计",
+                        "image": ""
+                    },
+                    {
+                        "name": "海报设计",
+                        "code": 10206,
+                        "category": 10200,
+                        "displayName": "海报设计",
+                        "image": ""
+                    },
+                    {
+                        "name": "传单设计",
+                        "code": 10207,
+                        "category": 10200,
+                        "displayName": "传单设计",
+                        "image": ""
+                    },
+                    {
+                        "name": "折页设计",
+                        "code": 10208,
+                        "category": 10200,
+                        "displayName": "折页设计",
+                        "image": ""
+                    },
+                    {
+                        "name": "官网设计",
+                        "code": 10209,
+                        "category": 10200,
+                        "displayName": "官网设计",
+                        "image": ""
+                    },
+                    {
+                        "name": "微店设计",
+                        "code": 10210,
+                        "category": 10200,
+                        "displayName": "微店设计",
+                        "image": ""
+                    },
+                    {
+                        "name": "漫画",
+                        "code": 10211,
+                        "category": 10200,
+                        "displayName": "漫画",
+                        "image": ""
+                    },
+                    {
+                        "name": "游戏设计",
+                        "code": 10212,
+                        "category": 10200,
+                        "displayName": "游戏设计",
+                        "image": ""
+                    },
+                    {
+                        "name": "多媒体设计",
+                        "code": 10213,
+                        "category": 10200,
+                        "displayName": "多媒体设计",
+                        "image": ""
+                    },
+                    {
+                        "name": "手绘",
+                        "code": 10214,
+                        "category": 10200,
+                        "displayName": "手绘",
+                        "image": ""
+                    },
+                    {
+                        "name": "珠宝设计",
+                        "code": 10215,
+                        "category": 10200,
+                        "displayName": "珠宝设计",
+                        "image": ""
+                    },
+                    {
+                        "name": "设计类其他",
+                        "code": 10299,
+                        "category": 10200,
+                        "displayName": "设计类其他",
+                        "image": ""
+                    }
+                ]
+            },
+            {
+                "name": "新媒体运营",
+                "code": 10300,
+                "localService": false,
+                "tagList": [
+                    {
+                        "name": "全部",
+                        "code": -10000,
+                        "category": -10000,
+                        "displayName": "全部",
+                        "image": ""
+                    },
+                    {
+                        "name": "公众号托管",
+                        "code": 10301,
+                        "category": 10300,
+                        "displayName": "公众号托管",
+                        "image": ""
+                    },
+                    {
+                        "name": "微博知乎建站",
+                        "code": 10302,
+                        "category": 10300,
+                        "displayName": "微博知乎建站",
+                        "image": ""
+                    },
+                    {
+                        "name": "媒体渠道投放",
+                        "code": 10303,
+                        "category": 10300,
+                        "displayName": "媒体渠道投放",
+                        "image": ""
+                    },
+                    {
+                        "name": "吸粉活动",
+                        "code": 10304,
+                        "category": 10300,
+                        "displayName": "吸粉活动",
+                        "image": ""
+                    },
+                    {
+                        "name": "其他运营媒体",
+                        "code": 10399,
+                        "category": 10300,
+                        "displayName": "其他运营媒体",
+                        "image": ""
+                    }
+                ]
+            },
+            {
+                "name": "管理",
+                "code": 10400,
+                "localService": false,
+                "tagList": [
+                    {
+                        "name": "全部",
+                        "code": -10000,
+                        "category": -10000,
+                        "displayName": "全部",
+                        "image": ""
+                    },
+                    {
+                        "name": "项目管理",
+                        "code": 10401,
+                        "category": 10400,
+                        "displayName": "项目管理",
+                        "image": ""
+                    },
+                    {
+                        "name": "管理类其他",
+                        "code": 10499,
+                        "category": 10400,
+                        "displayName": "管理类其他",
+                        "image": ""
+                    }
+                ]
+            }
+        ]
+    }
+}

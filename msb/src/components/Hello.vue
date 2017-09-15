@@ -2,6 +2,7 @@
   <div class="hello">
   	<swiper :list="demo01_list" auto v-model="demo01_index" @on-index-change="demo01_onIndexChange"></swiper>
     <div class="home-list">
+     <router-link to="/component/Mission">
       <div class="home-item">
         <div class="home-item-img">
           <img src="../assets/m_p.png" width="25" height="25" alt="title" />
@@ -10,6 +11,8 @@
         <span>多人业务</span>
         </div>
       </div>
+    </router-link>
+       <router-link to="/component/Mission">
       <div class="home-item">
         <div class="home-item-img">
           <img src="../assets/s_p.png" width="25" height="25" alt="title" />
@@ -18,6 +21,8 @@
           <span>单人业务</span>
         </div>
       </div>
+    </router-link>
+      <router-link to="/component/Mission">
       <div class="home-item">
         <div class="home-item-img">
           <img src="../assets/m_m.png" width="25" height="25" alt="title" />
@@ -26,6 +31,8 @@
           <span>任务管理</span>
         </div>
       </div>
+       </router-link>
+       <router-link to="/user/HomePage">
       <div class="home-item">
         <div class="home-item-img">
           <img src="../assets/m_s.png" width="25" height="23" alt="title" />
@@ -34,6 +41,7 @@
         <span>我的主页</span>
         </div>
       </div>
+    </router-link >
       <div class="home-item">
         <div class="home-item-img">
           <img src="../assets/v_m.png" width="25" height="23" alt="title" />
@@ -71,7 +79,7 @@
 
 <script>
 import { Group, Cell, Swiper, SwiperItem, Grid, GridItem, Tabbar, TabbarItem } from 'vux'
-// import http from '../../http/http'
+import http from '../../http/http'
 // import
 const baseList = [{
   url: 'javascript:',
@@ -108,8 +116,7 @@ export default {
     }
   },
   created () {
-    console.log(this)
-    this.$http.jsonp('http://192.168.8.59/weixinvip/VIP/ERP/Home/api.ashx?a=getwxativity&i=1').then((response) => {
+    http.get('../static/mission.json').then((response) => {
       console.log(response)
     }, (response) => {
      // console.log(response)

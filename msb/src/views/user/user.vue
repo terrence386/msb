@@ -26,8 +26,10 @@
           </router-link>
           </div>
           <div>
-            <img src="../../assets/p_l.png">
-            <p>应聘管理</p>
+            <router-link to="/apply/apply">
+              <img src="../../assets/p_l.png">
+              <p>应聘管理</p>
+            </router-link>
           </div>
         </div>
       </div>

@@ -8,6 +8,7 @@ import Login from '@/views/login/Login'
 import User from '@/views/user/user'
 import HomePage from '@/views/user/homePage'
 import Pservice from '@/views/serviceOrder/pservice'
+import Apply from '@/views/apply/apply'
 
 Vue.use(Router)
 
@@ -53,6 +54,11 @@ export default new Router({
       path: '/serve/pservice',
       name: Pservice,
       component: Pservice
+    },
+    {
+      path: '/apply/apply',
+      name: 'Apply',
+      component: Apply
     }
   ]
 })
